@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="disablePotion">
+    <output-path>$USER_HOME$/Downloads/BuildTools/plugins</output-path>
+    <root id="archive" name="disablePotion.jar" />
+  </artifact>
+</component>

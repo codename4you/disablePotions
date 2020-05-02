@@ -1,0 +1,5 @@
+name: disablePotion
+version: 1.0.0
+main: me.codename4you.disablePotion.DisablePotionMain
+description: disables potions
+api-version: 1.15

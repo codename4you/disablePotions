@@ -1,0 +1,46 @@
+Options:
+  # true -> will show the message.
+  # false -> will NOT show the message.
+  MessageEnable: true
+  Message: '&7&l[&5&lDP&7&l] &cThat potion is disabled!'
+  Worlds:
+    - 'WORLD'
+    - 'NETHER'
+  Potions:
+    PotionType:
+      - 'HARM'
+      - 'SPEED'
+      # =-= POTION TYPES =-=
+      # ABSORPTION
+      # BAD_OMEN
+      # BLINDNESS
+      # CONDUIT_POWER
+      # CONFUSION
+      # DAMAGE_RESISTANCE
+      # DOLPHINS_GRACE
+      # FAST_DIGGING
+      # FIRE_RESISTANCE
+      # GLOWING
+      # HARM
+      # HEAL
+      # HEALTH_BOOST
+      # HERO_OF_THE_VILLAGE
+      # HUNGER
+      # INCREASE_DAMAGE
+      # INVISIBILITY
+      # JUMP
+      # LEVITATION
+      # LUCK
+      # NIGHT_VISION
+      # POISON
+      # REGENERATION
+      # SATURATION
+      # SLOW
+      # SLOW_DIGGING
+      # SLOW_FALLING
+      # SPEED
+      # UNLUCK
+      # WATER_BREATHING
+      # WEAKNESS
+      # WITHER
+
