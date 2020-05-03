@@ -23,7 +23,7 @@ public class disablePotionEvent implements Listener{
         boolean booleanMessage = pluginMain.getConfig().getBoolean("Options.MessageEnable");
         for (PotionEffect pTypes : thrownPotion.getEffects()) {
             if (configWorld.contains(thrownPotion.getWorld().getName().toUpperCase())
-                    || configPotionType.contains(pTypes.getType().getName().toUpperCase())) {
+                    && configPotionType.contains(pTypes.getType().getName().toUpperCase())) {
                 event.setCancelled(true);
                 if (thrownPotion.getShooter() instanceof Player){
                     Player p = (Player) thrownPotion.getShooter();
@@ -45,7 +45,7 @@ public class disablePotionEvent implements Listener{
         boolean booleanMessage = pluginMain.getConfig().getBoolean("Options.MessageEnable");
         for(PotionEffect pTypes : thrownPotion.getEffects()) {
             if (configWorld.contains(thrownPotion.getWorld().getName().toUpperCase())
-                    || configPotionType.contains(pTypes.getType().getName().toUpperCase())){
+                    && configPotionType.contains(pTypes.getType().getName().toUpperCase())){
                 event.setCancelled(true);
                 if (thrownPotion.getShooter() instanceof Player){
                     Player p = (Player) thrownPotion.getShooter();
